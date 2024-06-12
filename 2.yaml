@@ -4,7 +4,7 @@ allow-lan: true
 ipv6: false
 log-level: info
 mode: Rule
-external-controller: 0.0.0.0:33333
+external-controller: 0.0.0.0:3333
 secret: thisisyoursecret
 proxies:
   - {name: 洛杉矶, server: www.j8ff.xyz, port: 8443, type: vmess, uuid: 38823a2b-6401-4cf8-a8e5-db88dc1b20f6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.j8ff.xyz, network: ws, ws-opts: {path: /sdfsfsd, headers: {Host: www.j8ff.xyz}}, udp: true}
@@ -115,5 +115,4 @@ rules:
  - DOMAIN-KEYWORD,tiktokv,🎥 TikTok
  - DOMAIN-KEYWORD,tiktokcdn,tiktokcdn
  - DOMAIN-KEYWORD,ibyteimg,🎥 TikTok
- - GEOIP,CN,REJECT
  - MATCH,🐟 漏网之鱼
