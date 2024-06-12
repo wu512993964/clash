@@ -6,8 +6,7 @@ mode: Rule
 external-controller: :9090
 proxies:
   - {name: 洛杉矶, server: www.j8ff.xyz, port: 8443, type: vmess, uuid: 38823a2b-6401-4cf8-a8e5-db88dc1b20f6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.j8ff.xyz, network: ws, ws-opts: {path: /sdfsfsd, headers: {Host: www.j8ff.xyz}}, udp: true}
-  - {name: 美国cakeip1, server: 143.198.68.149, port: 10000, type: socks5, username: "JxZ5JoZ--region-US-area-California-", password: "PBYJwbE",skip-cert-verify: true,}
-  - {name: 美国cakeip2, server: 143.198.68.149, port: 10000, type: socks5, username: "JxZ5JoZ--region-US-area-California-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 美国cakeip, server: 143.198.68.149, port: 10000, type: socks5, username: "JxZ5JoZ--region-US-area-California-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 马来西亚cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-MY-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 英国cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-GB-area-England-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 罗拉美国, server: proxyus.rola.vip, port: 2000, type: socks5, username: "512993964_1", password: "625000",skip-cert-verify: true,}
