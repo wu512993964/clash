@@ -6,7 +6,6 @@ secret: 123456
 ipv6: false
 log-level: info
 mode: Rule
-log-level: info
 proxies:
   - {name: 洛杉矶111, server: www.j8ff.xyz, port: 12388, type: vmess, uuid: b148f662-2950-4d6b-9725-c5afb3548895, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.j8ff.xyz, network: ws, ws-opts: {path: /xjauvws, headers: {Host: www.j8ff.xyz}}, udp: true}
   - {name: 洛杉矶, server: www.j8ff.xyz, port: 8443, type: vmess, uuid: 38823a2b-6401-4cf8-a8e5-db88dc1b20f6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.j8ff.xyz, network: ws, ws-opts: {path: /sdfsfsd, headers: {Host: www.j8ff.xyz}}, udp: true}
