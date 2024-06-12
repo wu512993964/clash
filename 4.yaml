@@ -1,7 +1,7 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-external-controller: 127.0.0.1:53365
+external-controller: 0.0.0.0:5678
 secret: 123456
 ipv6: false
 log-level: info
