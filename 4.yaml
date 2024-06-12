@@ -1,0 +1,147 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+external-controller: 0.0.0.0:53365
+secret: 123456
+ipv6: false
+log-level: info
+mode: Rule
+log-level: info
+proxies:
+  - {name: 洛杉矶111, server: www.j8ff.xyz, port: 12388, type: vmess, uuid: b148f662-2950-4d6b-9725-c5afb3548895, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.j8ff.xyz, network: ws, ws-opts: {path: /xjauvws, headers: {Host: www.j8ff.xyz}}, udp: true}
+  - {name: 洛杉矶, server: www.j8ff.xyz, port: 8443, type: vmess, uuid: 38823a2b-6401-4cf8-a8e5-db88dc1b20f6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.j8ff.xyz, network: ws, ws-opts: {path: /sdfsfsd, headers: {Host: www.j8ff.xyz}}, udp: true}
+  - {name: 美国cakeip, server: 143.198.68.149, port: 10000, type: socks5, username: "JxZ5JoZ--region-US-area-California-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 马来西亚cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-MY-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 英国cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-GB-area-England-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 罗拉美国, server: proxyus.rola.vip, port: 2000, type: socks5, username: "512993964_1", password: "625000",skip-cert-verify: true,}
+proxy-groups:
+  - name: "马来西亚cakeip-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 马来西亚cakeip
+  - name: "美国cakeip-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 美国cakeip
+  - name: "英国cakeip-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 英国cakeip    
+  - name: "罗拉-美国"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 罗拉美国     
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 洛杉矶
+  - name: ♻️ 自动选择
+    type: select
+    proxies:
+      - 美国cakeip-1
+      - 洛杉矶
+  - name: 🎥 NETFLIX
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 洛杉矶
+  - name: 🎥 TikTok
+    type: select
+    proxies:
+      - 美国cakeip-1
+      - 马来西亚cakeip-1
+      - 英国cakeip-1
+      - 罗拉-美国
+      - 洛杉矶     
+  - name: tiktokcdn
+    type: select
+    proxies:
+      - 美国cakeip-1
+      - REJECT
+      - 马来西亚cakeip-1
+      - 英国cakeip-1
+      - 罗拉-美国
+      - 洛杉矶
+  - name: ⛔️ 广告拦截
+    type: select
+    proxies:
+      - 🛑 全球拦截
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: 🚫 运营劫持
+    type: select
+    proxies:
+      - 🛑 全球拦截
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 洛杉矶
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+      - 洛杉矶
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - 洛杉矶
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 洛杉矶
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - REJECT
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🎥 TikTok
+      - tiktokcdn
+      - 洛杉矶   
+rules:
+ - DOMAIN-KEYWORD,pkgcdn,tiktokcdn
+ - DOMAIN-KEYWORD,ipinfo,🎥 TikTok
+ - DOMAIN-KEYWORD,fakeloc,洛杉矶
+ - DOMAIN-KEYWORD,xiaomi,洛杉矶
+ - DOMAIN-KEYWORD,miui,洛杉矶
+ - DOMAIN-KEYWORD,akamaized,REJECT
+ - DOMAIN-KEYWORD,tiktokv,🎥 TikTok
+ - DOMAIN-KEYWORD,tiktokcdn,tiktokcdn
+ - DOMAIN-KEYWORD,ibyteimg,🎥 TikTok
+ - GEOIP,CN,REJECT
+ - MATCH,🐟 漏网之鱼
