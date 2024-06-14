@@ -108,6 +108,7 @@ proxy-groups:
       - tiktokcdn
       - 洛杉矶   
 rules:
+ - DOMAIN-KEYWORD,cuiqiu,DIRECT
  - DOMAIN-KEYWORD,pkgcdn,tiktokcdn
  - DOMAIN-KEYWORD,ipinfo,🎥 TikTok
  - DOMAIN-KEYWORD,tiktokv,🎥 TikTok
