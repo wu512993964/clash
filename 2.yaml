@@ -112,6 +112,12 @@ rules:
  - DOMAIN-KEYWORD,bingtop,DIRECT
  - DOMAIN-KEYWORD,flurry,DIRECT
  - DOMAIN-KEYWORD,jfbym,DIRECT
+ - DOMAIN-KEYWORD,xiaomi,🎥 TikTok
+ - DOMAIN-KEYWORD,miui,🎥 TikTok
+ - DOMAIN-KEYWORD,google,🎥 TikTok
+ - DOMAIN-KEYWORD,bug,🎥 TikTok
+ - DOMAIN-KEYWORD,220.181,🎥 TikTok
+ - DOMAIN-KEYWORD,106.120,🎥 TikTok
  - DOMAIN-KEYWORD,pkgcdn,tiktokcdn
  - DOMAIN-KEYWORD,ipinfo,🎥 TikTok
  - DOMAIN-KEYWORD,tiktokv,🎥 TikTok
