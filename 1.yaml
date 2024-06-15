@@ -110,6 +110,7 @@ proxy-groups:
 rules:
  - DOMAIN-KEYWORD,cuiqiu,DIRECT
  - DOMAIN-KEYWORD,bingtop,DIRECT
+ - DOMAIN-KEYWORD,flurry,DIRECT
  - DOMAIN-KEYWORD,jfbym,DIRECT
  - DOMAIN-KEYWORD,pkgcdn,tiktokcdn
  - DOMAIN-KEYWORD,ipinfo,🎥 TikTok
