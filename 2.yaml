@@ -6,7 +6,7 @@ mode: Rule
 external-controller: :9090
 proxies:
   - {name: 洛杉矶, server: yd1.qianggewangluo.buzz, port: 10811, type: ss, cipher: chacha20-ietf-poly1305, password: 36fdc73d-0bff-4d66-9759-e81c63de16b6}
-  - {name: 美国cakeip, server: 143.198.68.149, port: 10000, type: socks5, username: "JxZ5JoZ--region-US-area-California-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 美国cakeip, server: 143.198.68.149, port: 10000, type: socks5, username: "JxZ5JoZ-X6D0FZ-region-US-area-California-session-B69GOJ-keeptime-5", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 马来西亚cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-MY-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 英国cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-GB-area-England-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 罗拉美国, server: proxyus.rola.vip, port: 2000, type: socks5, username: "512993964_1", password: "625000",skip-cert-verify: true,}
