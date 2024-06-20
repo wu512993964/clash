@@ -5,7 +5,7 @@ log-level: info
 mode: Rule
 external-controller: :9090
 proxies:
-  - {name: 洛杉矶, server: yd1.qianggewangluo.buzz, port: 10811, type: ss, cipher: chacha20-ietf-poly1305, password: 36fdc73d-0bff-4d66-9759-e81c63de16b6}
+  - {name: 洛杉矶,"type":"vless","server":"154.197.121.99","port":8443,"uuid":"775213ac-3976-439a-8977-3277c0e4735d","tls":true,"servername":"fq521.6789.cloudns.be","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"fq521.6789.cloudns.be"}}}
   - {name: 美国cakeip, server: 206.189.39.47, port: 10000, type: socks5, username: "JxZ5JoZ--region-US-area-Washington-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 马来西亚cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-MY-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 英国cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-GB-area-England-", password: "PBYJwbE",skip-cert-verify: true,}
