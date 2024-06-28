@@ -20,6 +20,7 @@ proxy-groups:
       - 断开网络
       - REJECT
       - 马来西亚cakeip-1
+      - 日本cakeip-1
       - 英国cakeip-1
       - 罗拉-美国
       - 洛杉矶     
@@ -30,6 +31,7 @@ proxy-groups:
       - 断开网络
       - REJECT
       - 马来西亚cakeip-1
+      - 日本cakeip-1
       - 英国cakeip-1
       - 罗拉-美国
       - 洛杉矶
