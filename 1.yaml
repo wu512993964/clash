@@ -7,6 +7,7 @@ external-controller: :9090
 proxies:
   - {name: 洛杉矶, server: www.18girlsdating.com, port: 9968, type: vmess, uuid: 40a64fdc-a2ff-4ca4-bd68-b6f809b487ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.18girlsdating.com, network: ws, ws-opts: {path: /nmicvws, headers: {Host: www.18girlsdating.com}}, udp: true}
   - {name: 美国cakeip, server: 206.189.39.47, port: 10000, type: socks5, username: "JxZ5JoZ--region-US-area-California-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 日本cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-JP-area-Tokyo-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 马来西亚cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-MY-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 英国cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-GB-area-England-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 罗拉美国, server: proxyus.rola.vip, port: 2000, type: socks5, username: "512993964_1", password: "625000",skip-cert-verify: true,}
@@ -42,6 +43,11 @@ proxy-groups:
     proxies:
       - 洛杉矶
       - 美国cakeip
+  - name: "日本cakeip-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 日本cakeip
   - name: "英国cakeip-1"
     type: relay
     proxies:
