@@ -8,7 +8,8 @@ proxies:
   - {name: 洛杉矶, server: www.18girlsdating.com, port: 9968, type: vmess, uuid: 40a64fdc-a2ff-4ca4-bd68-b6f809b487ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.18girlsdating.com, network: ws, ws-opts: {path: /nmicvws, headers: {Host: www.18girlsdating.com}}, udp: true}
   - {name: 美国cakeip, server: 206.189.39.47, port: 10000, type: socks5, username: "JxZ5JoZ--region-US-area-California-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 日本cakeip, server: 143.198.68.149, port: 10000, type: socks5, username: "JxZ5JoZ--region-JP-area-Tokyo-", password: "PBYJwbE",skip-cert-verify: true,}
-  - {name: 韩国cakeip, server: 143.198.68.149, port: 10000, type: socks5, username: "JxZ5JoZ--region-KR-area-Chungcheongnam-do-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 韩国cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-KR-area-Chungcheongnam-do-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 新加坡cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-SG-area-Singapore-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 马来西亚cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-MY-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 英国cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-GB-area-England-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 加拿大cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-CA-area-Alberta-", password: "PBYJwbE",skip-cert-verify: true,}
@@ -24,6 +25,7 @@ proxy-groups:
       - 马来西亚cakeip-1
       - 日本cakeip-1
       - 韩国cakeip-1
+      - 新加坡cakeip-1
       - 英国cakeip-1
       - 加拿大cakeip-1
       - 罗拉-美国
@@ -37,6 +39,7 @@ proxy-groups:
       - 马来西亚cakeip-1
       - 日本cakeip-1
       - 韩国cakeip-1
+      - 新加坡cakeip-1
       - 英国cakeip-1
       - 加拿大cakeip-1
       - 罗拉-美国
@@ -46,6 +49,11 @@ proxy-groups:
     proxies:
       - 洛杉矶
       - 马来西亚cakeip
+  - name: "新加坡cakeip-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 新加坡cakeip    
   - name: "加拿大cakeip-1"
     type: relay
     proxies:
