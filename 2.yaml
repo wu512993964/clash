@@ -9,7 +9,7 @@ proxies:
   - {name: 美国cakeip, server: 206.189.39.47, port: 10000, type: socks5, username: "JxZ5JoZ--region-US-area-California-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 日本cakeip, server: 143.198.68.149, port: 10000, type: socks5, username: "JxZ5JoZ--region-JP-area-Tokyo-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 韩国cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-KR-area-Chungcheongnam-do-", password: "PBYJwbE",skip-cert-verify: true,}
-  - {name: 新加坡cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-SG-area-Singapore-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 新加坡cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-SG-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 马来西亚cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-MY-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 英国cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-GB-area-England-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 加拿大cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-CA-area-Alberta-", password: "PBYJwbE",skip-cert-verify: true,}
