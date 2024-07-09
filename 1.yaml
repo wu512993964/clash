@@ -15,6 +15,12 @@ proxies:
   - {name: 英国cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-GB-area-England-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 加拿大cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-CA-area-Alberta-", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 罗拉美国, server: proxyus.rola.vip, port: 2000, type: socks5, username: "JxZ5JoZ--region-CA-area-Alberta-", password: "625000",skip-cert-verify: true,}
+  - {name: ip2日本1, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg1-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
+  - {name: ip2日本2, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg2-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
+  - {name: ip2日本3, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg3-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
+  - {name: ip2日本4, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg4-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
+  - {name: ip2日本5, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg5-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
+  - {name: ip2日本6, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg6-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
   - {name: 断开网络, server: proxyus.rola.vip, port: 2000, type: socks5, username: "123", password: "123",skip-cert-verify: true,}
 proxy-groups:
   - name: 🎥 TikTok
@@ -24,6 +30,7 @@ proxy-groups:
       - 断开网络
       - REJECT
       - 马来西亚cakeip-1
+      - ip2日本集合
       - 日本cakeip-1
       - 泰国cakeip-1
       - 韩国cakeip-1
@@ -39,6 +46,7 @@ proxy-groups:
       - 断开网络
       - REJECT
       - 马来西亚cakeip-1
+      - ip2日本集合
       - 日本cakeip-1
       - 泰国cakeip-1
       - 韩国cakeip-1
@@ -87,6 +95,45 @@ proxy-groups:
     proxies:
       - 洛杉矶
       - 英国cakeip    
+  - name: "ip2日本-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - ip2日本1    
+  - name: "ip2日本-2"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - ip2日本2     
+  - name: "ip2日本-3"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - ip2日本3      
+  - name: "ip2日本-4"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - ip2日本4
+  - name: "ip2日本-5"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - ip2日本5
+  - name: "ip2日本-6"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - ip2日本6                                   
+  - name: "ip2日本集合"
+    type: select
+    proxies:
+      - ip2日本-1
+      - ip2日本-2
+      - ip2日本-3
+      - ip2日本-4
+      - ip2日本-5
+      - ip2日本-6
   - name: "罗拉-美国"
     type: relay
     proxies:
