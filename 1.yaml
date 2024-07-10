@@ -73,6 +73,7 @@ proxy-groups:
       - ipweb泰国4
       - ipweb泰国5
       - ipweb泰国6 
+      - ipweb泰国7
   - name: "马来西亚cakeip-1"
     type: relay
     proxies:
