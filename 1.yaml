@@ -22,7 +22,7 @@ proxies:
   - {name: ip2日本5, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg5-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
   - {name: ip2日本6, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg6-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
   - {name: ipweb泰国1, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMXQ1ip", password: "zhiy1202",skip-cert-verify: true,}
-  - {name: ipweb泰国2, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMXQ2ip", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国2, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_J6ZTFsZy", password: "zhiy1202",skip-cert-verify: true,}
   - {name: ipweb泰国3, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMXQ3ip", password: "zhiy1202",skip-cert-verify: true,}
   - {name: ipweb泰国4, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMXQ4ip", password: "zhiy1202",skip-cert-verify: true,}
   - {name: ipweb泰国5, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMXQ5ip", password: "zhiy1202",skip-cert-verify: true,}
