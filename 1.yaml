@@ -21,6 +21,13 @@ proxies:
   - {name: ip2日本4, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg4-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
   - {name: ip2日本5, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg5-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
   - {name: ip2日本6, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg6-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
+  - {name: ipweb泰国1, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMXQ1ip", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国2, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMXQ2ip", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国3, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMXQ3ip", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国4, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMXQ4ip", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国5, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMXQ5ip", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国6, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMXQ6ip", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国7, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMXQ7ip", password: "zhiy1202",skip-cert-verify: true,}
   - {name: 断开网络, server: proxyus.rola.vip, port: 2000, type: socks5, username: "123", password: "123",skip-cert-verify: true,}
 proxy-groups:
   - name: 🎥 TikTok
@@ -30,6 +37,7 @@ proxy-groups:
       - 断开网络
       - REJECT
       - 马来西亚cakeip-1
+      - ipweb泰国集合
       - ip2日本集合
       - 日本cakeip-1
       - 泰国cakeip-1
@@ -41,11 +49,12 @@ proxy-groups:
       - 洛杉矶     
   - name: tiktokcdn
     type: select
-    proxies:
+    proxies:   
       - 美国cakeip-1
       - 断开网络
       - REJECT
       - 马来西亚cakeip-1
+      - ipweb泰国集合
       - ip2日本集合
       - 日本cakeip-1
       - 泰国cakeip-1
@@ -55,6 +64,15 @@ proxy-groups:
       - 加拿大cakeip-1
       - 罗拉-美国
       - 洛杉矶
+  - name: "ipweb泰国集合"
+    type: select
+    proxies:
+      - ipweb泰国1
+      - ipweb泰国2
+      - ipweb泰国3
+      - ipweb泰国4
+      - ipweb泰国5
+      - ipweb泰国6 
   - name: "马来西亚cakeip-1"
     type: relay
     proxies:
