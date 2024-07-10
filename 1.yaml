@@ -28,6 +28,9 @@ proxies:
   - {name: ipweb泰国5, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMX252ip:das44aew", password: "zhiy1202",skip-cert-verify: true,}
   - {name: ipweb泰国6, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMXQ36ip:5sa552de", password: "zhiy1202",skip-cert-verify: true,}
   - {name: ipweb泰国7, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npM44Q7ip:ew32q66e", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国8, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npM3Q74p3:e224366s", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国9, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npM44Q23p:ew32q63e", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国10, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npM4we7ip:ew32662", password: "zhiy1202",skip-cert-verify: true,}
   - {name: 断开网络, server: proxyus.rola.vip, port: 2000, type: socks5, username: "123", password: "123",skip-cert-verify: true,}
 proxy-groups:
   - name: 🎥 TikTok
@@ -74,6 +77,9 @@ proxy-groups:
       - ipweb泰国5
       - ipweb泰国6 
       - ipweb泰国7
+      - ipweb泰国8
+      - ipweb泰国9
+      - ipweb泰国10
   - name: "马来西亚cakeip-1"
     type: relay
     proxies:
