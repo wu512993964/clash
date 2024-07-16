@@ -17,7 +17,7 @@ proxies:
   - {name: 洛杉矶站群-38-22-236-176, server: 38.22.236.176, port: 20009, type: vmess, uuid: c669a52e-6afe-4617-bf17-7d1bab47192d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /c0BO3Nc/}, udp: true}
   - {name: 洛杉矶站群-38-22-237-57, server: 38.22.237.57, port: 20010, type: vmess, uuid: 29117571-4f53-4fa5-8772-0da368a44d9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /c6O8Ivc/}, udp: true}
 proxy-groups:
-  - name: TikTok
+  - name: 🎥 TikTok
     type: select
     proxies:
       - 洛杉矶站群-38-22-237-51
@@ -27,12 +27,12 @@ proxy-groups:
       - 洛杉矶站群-38-22-237-52
       - 洛杉矶站群-38-22-236-181
       - 洛杉矶站群-38-22-236-179
-      - 洛杉矶站群-38-22-236-178
       - 洛杉矶站群-38-22-236-176
+      - 洛杉矶站群-38-22-236-178
       - 洛杉矶站群-38-22-237-57
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-
+      - 🎥 TikTok
 rules:
  - MATCH,🐟 漏网之鱼
