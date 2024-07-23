@@ -1,0 +1,241 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+log-level: info
+mode: Rule
+external-controller: :9090
+proxies:
+  - {name: 洛杉矶, server: www.18girlsdating.com, port: 1221, type: vmess, uuid: 6da2963b-7aeb-4c83-990e-f887c6c6cff4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.18girlsdating.com, network: ws, ws-opts: {path: /oqiivws, headers: {Host: www.18girlsdating.com}}, udp: true}
+  - {name: 美国cakeip, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "101140432356-sySqghC8", password: "abb45aff7af2631bb2593c6869718557",skip-cert-verify: true,}
+  - {name: 美国cakeip11, server: 206.189.39.47, port: 10000, type: socks5, username: "JxZ5JoZ--region-US-area-California-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 日本cakeip, server: 143.198.68.149, port: 10000, type: socks5, username: "JxZ5JoZ--region-JP-area-Tokyo-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 韩国cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-KR-area-Chungcheongnam-do-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 泰国cakeip, server: 143.198.238.176, port: 10000, type: socks5, username: "JxZ5JoZ--region-TH-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 新加坡cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-SG-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 马来西亚cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-MY-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 英国cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-GB-area-England-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 加拿大cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-CA-area-Alberta-", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 罗拉美国, server: proxyus.rola.vip, port: 2000, type: socks5, username: "JxZ5JoZ--region-CA-area-Alberta-", password: "625000",skip-cert-verify: true,}
+  - {name: ip2日本1, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg1-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
+  - {name: ip2日本2, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg2-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
+  - {name: ip2日本3, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg3-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
+  - {name: ip2日本4, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg4-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
+  - {name: ip2日本5, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg5-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
+  - {name: ip2日本6, server: e6f1459e68af4f36.iuy.us.ip2world.vip, port: 6001, type: socks5, username: "gggggg6-zone-resi-region-jp", password: "625000",skip-cert-verify: true,}
+  - {name: ipweb泰国1, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npM2XQ1ip:sfs3441d", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国2, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_J6ZTF2sZy:qwer1yui", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国3, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npM14Q3ip:saf1fe3x", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国4, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_np4MXQ4ip:ssfer42d", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国5, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMX252ip:das44aew", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国6, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npMXQ36ip:5sa552de", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国7, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npM44Q7ip:ew32q66e", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国8, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npM3Q74p3:e224366s", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国9, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npM44Q23p:ew32q63e", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: ipweb泰国10, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "B_35101_TH_1449_10675_60_npM4we7ip:ew32662", password: "zhiy1202",skip-cert-verify: true,}
+  - {name: 断开网络, server: proxyus.rola.vip, port: 2000, type: socks5, username: "123", password: "123",skip-cert-verify: true,}
+proxy-groups:
+  - name: 🎥 TikTok
+    type: select
+    proxies:
+      - 美国cakeip
+      - 断开网络
+      - REJECT
+      - 马来西亚cakeip-1
+      - ipweb泰国集合
+      - ip2日本集合
+      - 日本cakeip-1
+      - 泰国cakeip-1
+      - 韩国cakeip-1
+      - 新加坡cakeip-1
+      - 英国cakeip-1
+      - 加拿大cakeip-1
+      - 罗拉-美国
+      - 美国cakeip-1
+      - 洛杉矶     
+  - name: tiktokcdn
+    type: select
+    proxies:   
+      - 美国cakeip
+      - 断开网络
+      - REJECT
+      - 马来西亚cakeip-1
+      - ipweb泰国集合
+      - ip2日本集合
+      - 日本cakeip-1
+      - 泰国cakeip-1
+      - 韩国cakeip-1
+      - 新加坡cakeip-1
+      - 英国cakeip-1
+      - 加拿大cakeip-1
+      - 罗拉-美国
+      - 美国cakeip-1
+      - 洛杉矶
+  - name: "ipweb泰国集合"
+    type: select
+    proxies:
+      - ipweb泰国1
+      - ipweb泰国2
+      - ipweb泰国3
+      - ipweb泰国4
+      - ipweb泰国5
+      - ipweb泰国6 
+      - ipweb泰国7
+      - ipweb泰国8
+      - ipweb泰国9
+      - ipweb泰国10
+  - name: "马来西亚cakeip-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 马来西亚cakeip
+  - name: "泰国cakeip-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 泰国cakeip
+  - name: "新加坡cakeip-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 新加坡cakeip    
+  - name: "加拿大cakeip-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 加拿大cakeip    
+  - name: "美国cakeip-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 美国cakeip
+  - name: "日本cakeip-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 日本cakeip
+  - name: "韩国cakeip-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 韩国cakeip    
+  - name: "英国cakeip-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 英国cakeip    
+  - name: "ip2日本-1"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - ip2日本1    
+  - name: "ip2日本-2"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - ip2日本2     
+  - name: "ip2日本-3"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - ip2日本3      
+  - name: "ip2日本-4"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - ip2日本4
+  - name: "ip2日本-5"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - ip2日本5
+  - name: "ip2日本-6"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - ip2日本6                                   
+  - name: "ip2日本集合"
+    type: select
+    proxies:
+      - ip2日本-1
+      - ip2日本-2
+      - ip2日本-3
+      - ip2日本-4
+      - ip2日本-5
+      - ip2日本-6
+  - name: "罗拉-美国"
+    type: relay
+    proxies:
+      - 洛杉矶
+      - 罗拉美国     
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 洛杉矶
+  - name: ♻️ 自动选择
+    type: select
+    proxies:
+      - 美国cakeip-1
+      - 洛杉矶
+  - name: ⛔️ 广告拦截
+    type: select
+    proxies:
+      - 🛑 全球拦截
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: 🚫 运营劫持
+    type: select
+    proxies:
+      - 🛑 全球拦截
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 洛杉矶
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - REJECT
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🎥 TikTok
+      - tiktokcdn
+      - 洛杉矶   
+rules:
+ - DOMAIN-KEYWORD,cuiqiu,DIRECT
+ - DOMAIN-KEYWORD,bingtop,DIRECT
+ - DOMAIN-KEYWORD,flurry,DIRECT
+ - DOMAIN-KEYWORD,jfbym,DIRECT
+ - DOMAIN-KEYWORD,xiaomi,🎥 TikTok
+ - DOMAIN-KEYWORD,miui,🎥 TikTok
+ - DOMAIN-KEYWORD,google,🎥 TikTok
+ - DOMAIN-KEYWORD,bug,🎥 TikTok
+ - DOMAIN-KEYWORD,220.181,🎥 TikTok
+ - DOMAIN-KEYWORD,106.120,🎥 TikTok
+ - DOMAIN-KEYWORD,pkgcdn,tiktokcdn
+ - DOMAIN-KEYWORD,ipinfo,🎥 TikTok
+ - DOMAIN-KEYWORD,tiktokv,🎥 TikTok
+ - DOMAIN-KEYWORD,tiktokcdn,tiktokcdn
+ - DOMAIN-KEYWORD,ibyteimg,🎥 TikTok
+ - MATCH,🐟 漏网之鱼
