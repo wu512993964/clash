@@ -4,25 +4,6 @@ allow-lan: true
 log-level: info
 mode: Rule
 external-controller: :9090
-
-tun:
-  enable: true
-  stack: system # or gvisor
-  dns-hijack:
-    - 198.18.0.2
-  auto-route: true
-  auto-detect-interface: true
-
-script:
-  code: |
-    def main(ctx, metadata):
-        if "tiktok" in metadata["host"]:
-            ctx.set_bypass(False)
-            ctx.set_outbound_tag("tiktokcdn")
-            ctx.set_limit(5, 5) # 设置下载和上传速度限制
-        return ctx
-  final: true
-
 proxies:
   - {name: 洛杉矶, server: www.18girlsdating.com, port: 1221, type: vmess, uuid: 6da2963b-7aeb-4c83-990e-f887c6c6cff4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.18girlsdating.com, network: ws, ws-opts: {path: /oqiivws, headers: {Host: www.18girlsdating.com}}, udp: true}
   - {name: 美国cakeip12, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "101140432356-8okCHoYe", password: "8b3827828356ff15a38892b15c69bfdb",skip-cert-verify: true,}
@@ -255,12 +236,8 @@ rules:
  ##- DOMAIN-KEYWORD,pkgcdn,tiktokcdn
  - DOMAIN-KEYWORD,ipinfo,🎥 TikTok
  - DOMAIN-KEYWORD,tiktokv,🎥 TikTok
- - DOMAIN-KEYWORD,pitayacdn.tiktokcdn.com,tiktokcdn
- - DOMAIN-KEYWORD,tiktokcdn-us.com,tiktokcdn
+ - DOMAIN-KEYWORD,pitayacdn.tiktokcdn.com,REJECT
+ - DOMAIN-KEYWORD,tiktokcdn-us.com,REJECT
  - DOMAIN-KEYWORD,tiktokcdn,tiktokcdn
  - DOMAIN-KEYWORD,ibyteimg,🎥 TikTok
  - MATCH,🐟 漏网之鱼
-speed:
-  - target: "tiktokcdn"
-    delay: 0
-    limit: 25KB/s
