@@ -252,7 +252,7 @@ rules:
  - DOMAIN-KEYWORD,bug,🎥 TikTok
  - DOMAIN-KEYWORD,220.181,🎥 TikTok
  - DOMAIN-KEYWORD,106.120,🎥 TikTok
- - DOMAIN-KEYWORD,pkgcdn,tiktokcdn
+ ##- DOMAIN-KEYWORD,pkgcdn,tiktokcdn
  - DOMAIN-KEYWORD,ipinfo,🎥 TikTok
  - DOMAIN-KEYWORD,tiktokv,🎥 TikTok
  - DOMAIN-KEYWORD,pitayacdn.tiktokcdn.com,tiktokcdn
