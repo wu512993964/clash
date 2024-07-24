@@ -236,8 +236,8 @@ rules:
  ##- DOMAIN-KEYWORD,pkgcdn,tiktokcdn
  - DOMAIN-KEYWORD,ipinfo,🎥 TikTok
  - DOMAIN-KEYWORD,tiktokv,🎥 TikTok
- - DOMAIN-KEYWORD,pitayacdn.tiktokcdn.com,REJECT
- - DOMAIN-KEYWORD,tiktokcdn-us.com,REJECT
+ ##- DOMAIN-KEYWORD,pitayacdn.tiktokcdn.com,REJECT
+ ##- DOMAIN-KEYWORD,tiktokcdn-us.com,REJECT
  - DOMAIN-KEYWORD,tiktokcdn,tiktokcdn
  - DOMAIN-KEYWORD,ibyteimg,🎥 TikTok
  - MATCH,🐟 漏网之鱼
