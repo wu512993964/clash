@@ -239,3 +239,8 @@ rules:
  - DOMAIN-KEYWORD,tiktokcdn,tiktokcdn
  - DOMAIN-KEYWORD,ibyteimg,🎥 TikTok
  - MATCH,🐟 漏网之鱼
+speed:
+  - target: "tiktokcdn"
+    delay: 0
+    limit: 25KB/s
+
