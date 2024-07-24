@@ -222,6 +222,24 @@ proxy-groups:
       - 🎥 TikTok
       - tiktokcdn
       - 洛杉矶   
+tun:
+  enable: true
+  stack: system # or gvisor
+  dns-hijack:
+    - 198.18.0.2
+  auto-route: true
+  auto-detect-interface: true
+
+script:
+  code: |
+    def main(ctx, metadata):
+        if "tiktok" in metadata["host"]:
+            ctx.set_bypass(False)
+            ctx.set_outbound_tag("tiktokcdn")
+            ctx.set_limit(5, 5) # 设置下载和上传速度限制
+        return ctx
+  final: true
+  
 rules:
  - DOMAIN-KEYWORD,cuiqiu,DIRECT
  - DOMAIN-KEYWORD,bingtop,DIRECT
@@ -239,20 +257,3 @@ rules:
  - DOMAIN-KEYWORD,tiktokcdn,tiktokcdn
  - DOMAIN-KEYWORD,ibyteimg,🎥 TikTok
  - MATCH,🐟 漏网之鱼
-tun:
-  enable: true
-  stack: system # or gvisor
-  dns-hijack:
-    - 198.18.0.2
-  auto-route: true
-  auto-detect-interface: true
-
-script:
-  code: |
-    def main(ctx, metadata):
-        if "tiktok" in metadata["host"]:
-            ctx.set_bypass(False)
-            ctx.set_outbound_tag("tiktokcdn")
-            ctx.set_limit(25, 25) # 设置下载和上传速度限制
-        return ctx
-  final: true
