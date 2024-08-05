@@ -224,6 +224,7 @@ proxy-groups:
       - 洛杉矶   
 rules:
  - DOMAIN-KEYWORD,cuiqiu,DIRECT
+ - DOMAIN-KEYWORD,lubansms,DIRECT
  - DOMAIN-KEYWORD,bingtop,洛杉矶
  - DOMAIN-KEYWORD,flurry,DIRECT
  - DOMAIN-KEYWORD,jfbym,DIRECT
