@@ -215,11 +215,11 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
+      - 🎥 TikTok
       - REJECT
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🎥 TikTok
       - tiktokcdn
       - 洛杉矶   
 rules:
