@@ -243,6 +243,7 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
+      - ♻️ 自动选择
       - 🎥 TikTok
       - REJECT
       - 🔰 节点选择
