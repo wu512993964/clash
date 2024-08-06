@@ -252,7 +252,7 @@ proxy-groups:
       - 洛杉矶   
 rules:
  - DOMAIN-KEYWORD,cuiqiu,DIRECT
- - DOMAIN-KEYWORD,lubansms,DIRECT
+ - DOMAIN-KEYWORD,lubansms,♻️ 自动选择
  - DOMAIN-KEYWORD,bingtop,DIRECT
  - DOMAIN-KEYWORD,flurry,DIRECT
  - DOMAIN-KEYWORD,jfbym,DIRECT
