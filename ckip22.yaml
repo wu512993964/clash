@@ -6,7 +6,7 @@ mode: Rule
 external-controller: :9090
 proxies:
   - {name: 洛杉矶, server: 154.17.27.42, port: 6689, type: vmess, uuid: bd9241e8-a693-4b14-c43e-455c3d507a6f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /SASA}}
-  - {name: 美国cakeip, server: 164.92.111.133, port: 10000, type: socks5, username: "JxZ5JoZ--region-US-area-California-2ee38b3112222", password: "PBYJwbE",skip-cert-verify: true,}
+  - {name: 美国cakeip, server: 137.184.190.238, port: 10000, type: socks5, username: "JxZ5JoZ--region-US-area-California-2ee38b3112222", password: "PBYJwbE",skip-cert-verify: true,}
   - {name: 洛杉矶站群-38-22-237-51, server: 38.22.237.51, port: 20001, type: vmess, uuid: 9ad505e1-afaf-46e8-93e7-f50a283ecf69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cuHaAbc/}, udp: true}
   - {name: 洛杉矶站群-154-44-16-144, server: 154.44.16.144, port: 20002, type: vmess, uuid: 6a34a833-765e-44fa-b1d7-2eee8b31fb16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /c4I6A2c/}, udp: true}
   - {name: 洛杉矶站群-38-22-236-181, server: 38.22.236.181, port: 20003, type: vmess, uuid: 2b40d7ac-58f0-4cb9-bfba-af4981fd378a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cvYjc9c/}, udp: true}
