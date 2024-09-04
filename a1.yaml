@@ -5,38 +5,50 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 洛杉矶站群-38-22-237-51, server: 38.22.237.51, port: 20001, type: vmess, uuid: 9ad505e1-afaf-46e8-93e7-f50a283ecf69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cuHaAbc/}, udp: true}
-  - {name: 洛杉矶站群-154-44-16-144, server: 154.44.16.144, port: 20002, type: vmess, uuid: 6a34a833-765e-44fa-b1d7-2eee8b31fb16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /c4I6A2c/}, udp: true}
-  - {name: 洛杉矶站群-38-22-236-181, server: 38.22.236.181, port: 20003, type: vmess, uuid: 2b40d7ac-58f0-4cb9-bfba-af4981fd378a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cvYjc9c/}, udp: true}
-  - {name: 洛杉矶站群-154-44-18-208, server: 154.44.18.208, port: 20004, type: vmess, uuid: 5c7e1706-86c8-4b3f-a3e9-4813c5ebbdb0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cZvmPlc/}, udp: true}
-  - {name: 洛杉矶站群-38-22-237-56, server: 38.22.237.56, port: 20005, type: vmess, uuid: 13ad5b23-5f01-4c49-8bb2-c07bc0013f83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /c3RN8wc/}, udp: true}
-  - {name: 洛杉矶站群-38-22-237-54, server: 38.22.237.54, port: 20006, type: vmess, uuid: 1b5f3f56-65fc-4427-8bee-4c9be9ba473b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cx36P0c/}, udp: true}
-  - {name: 洛杉矶站群-38-22-237-52, server: 38.22.237.52, port: 20007, type: vmess, uuid: 1a3fe425-8ed4-47eb-90a9-34ec5d7cae65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cT1uwpc/}, udp: true}
-  - {name: 洛杉矶站群-38-22-236-179, server: 38.22.236.179, port: 20008, type: vmess, uuid: 5845e2a9-9309-4e1f-ba18-c2cb89ec543c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /c6ZcjSc/}, udp: true}
-  - {name: 洛杉矶站群-38-22-236-178, server: 38.22.236.178, port: 20009, type: vmess, uuid: 3dccedee-c763-4106-92ac-4be9d16bbd5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /c3s0KXc/}, udp: true}
-  - {name: 洛杉矶站群-38-22-236-176, server: 38.22.236.176, port: 20010, type: vmess, uuid: ead46fc0-6f4e-427b-b2ca-775493f774e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cQWw1Vc/}, udp: true}
-  - {name: 洛杉矶站群-38-22-236-175, server: 38.22.236.175, port: 20011, type: vmess, uuid: b69cf617-d42f-47a4-882c-75c81215731d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cPuxl2c/}, udp: true}
-  - {name: 洛杉矶站群-38-22-236-2, server: 38.22.236.2, port: 20012, type: vmess, uuid: 7a4a76f4-ab9d-40e1-a28d-95d9f9356710, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cHLBh0c/}, udp: true}
-  - {name: 洛杉矶站群-154-44-16-176, server: 154.44.16.176, port: 20013, type: vmess, uuid: af430d32-7ee7-49a7-aab5-929ec3adf88b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /c40Wh9c/}, udp: true}
-  - {name: 洛杉矶站群-38-22-237-57, server: 38.22.237.57, port: 20014, type: vmess, uuid: dfaaba26-4d40-47c9-865e-0928914e6e0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cKL1xHc/}, udp: true}
+  - {name: Proxy-1, server: 38.182.18.233, port: 42000, type: socks5, username: "t6cen2", password: "6pztr6iv", skip-cert-verify: true}
+  - {name: Proxy-2, server: 38.182.18.249, port: 42000, type: socks5, username: "ufr34x", password: "4mzdac2i", skip-cert-verify: true}
+  - {name: Proxy-3, server: 38.182.18.232, port: 42000, type: socks5, username: "tfptpd", password: "9gehu8yt", skip-cert-verify: true}
+  - {name: Proxy-4, server: 38.182.18.63, port: 42000, type: socks5, username: "c9wfgg", password: "768z5gpy", skip-cert-verify: true}
+  - {name: Proxy-5, server: 38.182.18.137, port: 42000, type: socks5, username: "agwiwp", password: "25k4sr7c", skip-cert-verify: true}
+  - {name: Proxy-6, server: 38.182.18.49, port: 42000, type: socks5, username: "juu693", password: "a2wh6qsa", skip-cert-verify: true}
+  - {name: Proxy-7, server: 38.182.18.250, port: 42000, type: socks5, username: "bimuh8", password: "ud856z8y", skip-cert-verify: true}
+  - {name: Proxy-8, server: 38.182.18.86, port: 42000, type: socks5, username: "3hh455", password: "3y9twdaw", skip-cert-verify: true}
+  - {name: Proxy-9, server: 38.182.18.52, port: 42000, type: socks5, username: "fut5hb", password: "egamiw9j", skip-cert-verify: true}
+  - {name: Proxy-10, server: 38.182.18.24, port: 42000, type: socks5, username: "n5yymt", password: "qs8xbmi7", skip-cert-verify: true}
+  - {name: Proxy-11, server: 38.182.18.195, port: 42000, type: socks5, username: "bpgc2q", password: "k3tae6at", skip-cert-verify: true}
+  - {name: Proxy-12, server: 38.182.18.173, port: 42000, type: socks5, username: "4g7iqd", password: "gvze7w49", skip-cert-verify: true}
+  - {name: Proxy-13, server: 38.182.18.139, port: 42000, type: socks5, username: "vtuign", password: "nz3e7udq", skip-cert-verify: true}
+  - {name: Proxy-14, server: 38.182.18.60, port: 42000, type: socks5, username: "bwzp4z", password: "ei7kd9di", skip-cert-verify: true}
+  - {name: Proxy-15, server: 38.182.18.181, port: 42000, type: socks5, username: "v7qrju", password: "6rha5ywv", skip-cert-verify: true}
+  - {name: Proxy-16, server: 38.182.18.172, port: 42000, type: socks5, username: "nhqixi", password: "wpgbnhre", skip-cert-verify: true}
+  - {name: Proxy-17, server: 38.182.18.25, port: 42000, type: socks5, username: "8f89tt", password: "d2y3afba", skip-cert-verify: true}
+  - {name: Proxy-18, server: 38.182.18.243, port: 42000, type: socks5, username: "jke8c4", password: "3yu6xas5", skip-cert-verify: true}
+  - {name: Proxy-19, server: 38.182.18.227, port: 42000, type: socks5, username: "8sbgyg", password: "83nzqzqe", skip-cert-verify: true}
+  - {name: Proxy-20, server: 38.182.18.99, port: 42000, type: socks5, username: "6gvu6j", password: "h2yqyyrf", skip-cert-verify: true}
 proxy-groups:
   - name: 🎥 TikTok
     type: select
     proxies:
-      - 洛杉矶站群-38-22-237-51
-      - 洛杉矶站群-38-22-236-175
-      - 洛杉矶站群-38-22-237-56
-      - 洛杉矶站群-38-22-237-54
-      - 洛杉矶站群-38-22-237-52
-      - 洛杉矶站群-38-22-236-181
-      - 洛杉矶站群-38-22-236-179
-      - 洛杉矶站群-38-22-236-178
-      - 洛杉矶站群-38-22-236-176
-      - 洛杉矶站群-38-22-237-57
-      - 洛杉矶站群-154-44-16-144
-      - 洛杉矶站群-154-44-18-208
-      - 洛杉矶站群-154-44-16-176
-      - 洛杉矶站群-38-22-236-2
+      - Proxy-1
+      - Proxy-2
+      - Proxy-3
+      - Proxy-4
+      - Proxy-5
+      - Proxy-6
+      - Proxy-7
+      - Proxy-8
+      - Proxy-9
+      - Proxy-10
+      - Proxy-11
+      - Proxy-12
+      - Proxy-13
+      - Proxy-14
+      - Proxy-15
+      - Proxy-16
+      - Proxy-17
+      - Proxy-18
+      - Proxy-19
+      - Proxy-20
   - name: 🐟 漏网之鱼
     type: select
     proxies:
