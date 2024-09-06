@@ -1,0 +1,34 @@
+mode: Rule
+port: 7890
+socks-port: 7891
+allow-lan: true
+log-level: info
+external-controller: :9090
+proxies:
+    - { name: Proxy-97, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_dquigs8q", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-98, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_wct87pac", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-99, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_c6t7qn0f", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-100, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_7d6xh2cu", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-101, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_hhnj6390", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-102, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_yrs0nnjq", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-103, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_6f0stolp", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-104, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_4nkqovkl", password: "vwqwut", skip-cert-verify: true }
+proxy-groups:
+  - name: 🎥 TikTok
+    type: select
+    proxies:
+      - Proxy-97
+      - Proxy-98
+      - Proxy-99
+      - Proxy-100
+      - Proxy-101
+      - Proxy-102
+      - Proxy-103
+      - Proxy-104
+
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🎥 TikTok
+rules:
+  - MATCH,🐟 漏网之鱼
