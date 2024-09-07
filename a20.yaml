@@ -40,6 +40,8 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🎥 TikTok
+      - "🎥 TikTok"
+      - "测试1"
+      - "测试2"
 rules:
   - MATCH,🐟 漏网之鱼
