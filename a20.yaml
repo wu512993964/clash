@@ -1,9 +1,9 @@
 mode: Rule
-port: 7890
-socks-port: 7891
+port: 7888
+socks-port: 7889
 allow-lan: true
 log-level: info
-external-controller: :9090
+external-controller: :9091
 dns:
   enable: true
   listen: 0.0.0.0:53
