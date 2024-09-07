@@ -46,4 +46,6 @@ proxy-groups:
       - "测试1"
       - "测试2"
 rules:
+  - DOMAIN-KEYWORD,tiktokv,🎥 TikTok
+  - DOMAIN-KEYWORD,tiktokcdn,🎥 TikTok
   - MATCH,🐟 漏网之鱼
