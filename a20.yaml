@@ -4,6 +4,18 @@ socks-port: 7891
 allow-lan: true
 log-level: info
 external-controller: :9090
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  nameserver:
+    - 8.8.8.8  # Google DNS
+    - 1.1.1.1  # Cloudflare DNS
+    - 114.114.114.114  # 中国大陆的 DNS
+    - 8.8.4.4  # Google DNS 备用
+  fallback:
+    - 8.8.8.8
+    - 1.1.1.1
 proxies:
     - {name: Proxy-153, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_tccnguvh", password: "vwqwut", skip-cert-verify: true }
     - { name: Proxy-154, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_mcddyv8q", password: "vwqwut", skip-cert-verify: true }
@@ -27,8 +39,8 @@ proxy-groups:
       - Proxy-159
       - Proxy-160
       - 洛杉矶
-      - "测试1"
-      - "测试2"
+      - 测试1
+      - 测试2
   - name: 测试1
     type: relay
     proxies:
@@ -42,10 +54,14 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - "🎥 TikTok"
-      - "测试1"
-      - "测试2"
+      - 🎥 TikTok
+      - 测试1
+      - 测试2
 rules:
-  - DOMAIN-KEYWORD,tiktokv,🎥 TikTok
-  - DOMAIN-KEYWORD,tiktokcdn,🎥 TikTok
+  - DOMAIN-SUFFIX,tiktokv.com,🎥 TikTok
+  - DOMAIN-SUFFIX,tiktokcdn.com,🎥 TikTok
+  - DOMAIN-SUFFIX,tiktok.com,🎥 TikTok
+  - DOMAIN-SUFFIX,byteoversea.com,🎥 TikTok
+  - DOMAIN-SUFFIX,byteoversea.net,🎥 TikTok
+  - DOMAIN-SUFFIX,ibytedtos.com,🎥 TikTok
   - MATCH,🐟 漏网之鱼
