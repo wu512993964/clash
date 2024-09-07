@@ -28,12 +28,12 @@ proxy-groups:
       - Proxy-160
       - 洛杉矶
   - name: 测试1
-    type: select
+    type: relay
     proxies:
       - 洛杉矶
       - Proxy-153
   - name: 测试2
-    type: select
+    type: relay
     proxies:
       - 洛杉矶
       - Proxy-154
