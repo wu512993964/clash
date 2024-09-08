@@ -5,26 +5,16 @@ allow-lan: true
 log-level: info
 external-controller: :9090
 proxies:
-    - { name: Proxy-33, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_aqbfzgae", password: "vwqwut", skip-cert-verify: true }
-    - { name: Proxy-34, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_vy2n97n2", password: "vwqwut", skip-cert-verify: true }
-    - { name: Proxy-35, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_brxj9oz3", password: "vwqwut", skip-cert-verify: true }
-    - { name: Proxy-36, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_l23av6cb", password: "vwqwut", skip-cert-verify: true }
-    - { name: Proxy-37, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_sik6j4j1", password: "vwqwut", skip-cert-verify: true }
-    - { name: Proxy-38, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_6i7d9ws9", password: "vwqwut", skip-cert-verify: true }
-    - { name: Proxy-39, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_kp628x3d", password: "vwqwut", skip-cert-verify: true }
-    - { name: Proxy-40, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_qwhzhpx6", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-10, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_ta15tq95", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-11, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_oazj91xk", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-12, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_2ece16rt", password: "vwqwut", skip-cert-verify: true }
 proxy-groups:
   - name: 🎥 TikTok
     type: select
     proxies:
-      - Proxy-33
-      - Proxy-34
-      - Proxy-35
-      - Proxy-36
-      - Proxy-37
-      - Proxy-38
-      - Proxy-39
-      - Proxy-40
+      - Proxy-10
+      - Proxy-11
+      - Proxy-12
 
   - name: 🐟 漏网之鱼
     type: select
