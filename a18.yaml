@@ -5,26 +5,20 @@ allow-lan: true
 log-level: info
 external-controller: :9090
 proxies:
-    - { name: Proxy-137, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_u3anu3h8", password: "vwqwut", skip-cert-verify: true }
-    - { name: Proxy-138, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_ckisz5oo", password: "vwqwut", skip-cert-verify: true }
-    - { name: Proxy-139, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_slwyw5pr", password: "vwqwut", skip-cert-verify: true }
-    - { name: Proxy-140, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_ynw90vjc", password: "vwqwut", skip-cert-verify: true }
-    - { name: Proxy-141, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_qr8501fk", password: "vwqwut", skip-cert-verify: true }
-    - { name: Proxy-142, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_00cg47rk", password: "vwqwut", skip-cert-verify: true }
-    - { name: Proxy-143, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_x08i9p5y", password: "vwqwut", skip-cert-verify: true }
-    - { name: Proxy-144, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_aj8u83gm", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-71, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_1gl9aqiu", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-72, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_g92xseh5", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-73, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_6bevclvb", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-74, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_g8aflz7h", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-75, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_ckn2lesr", password: "vwqwut", skip-cert-verify: true }
 proxy-groups:
   - name: 🎥 TikTok
     type: select
     proxies:
-      - Proxy-137
-      - Proxy-138
-      - Proxy-139
-      - Proxy-140
-      - Proxy-141
-      - Proxy-142
-      - Proxy-143
-      - Proxy-144
+      - Proxy-71
+      - Proxy-72
+      - Proxy-73
+      - Proxy-74
+      - Proxy-75
 
   - name: 🐟 漏网之鱼
     type: select

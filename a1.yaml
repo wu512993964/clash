@@ -8,6 +8,8 @@ proxies:
     - { name: Proxy-1, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_bzg8cgfr", password: "vwqwut", skip-cert-verify: true }
     - { name: Proxy-2, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_d9cw8r1p", password: "vwqwut", skip-cert-verify: true }
     - { name: Proxy-3, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_woqofkq7", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-4, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_lel15iso", password: "vwqwut", skip-cert-verify: true }
+    - { name: Proxy-5, server: static-us-gate.ipweb.cc, port: 22222, type: socks5, username: "1353520845_US_California_juafbm62", password: "vwqwut", skip-cert-verify: true }
 proxy-groups:
   - name: 🎥 TikTok
     type: select
@@ -15,6 +17,8 @@ proxy-groups:
       - Proxy-1
       - Proxy-2
       - Proxy-3
+      - Proxy-4
+      - Proxy-5
 
   - name: 🐟 漏网之鱼
     type: select
