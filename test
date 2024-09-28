@@ -1,0 +1,23 @@
+mode: Rule
+port: 7890
+socks-port: 7891
+allow-lan: true
+log-level: info
+external-controller: :9090
+proxies:
+    - { name: Proxy-1, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-hbpB13lb", password: "0f29152446b7ba24c6bfa4da3c311b5d", skip-cert-verify: true }
+    - { name: Proxy-2, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-rS22vmo5", password: "196113c1a49ba3dbc9d19ac04e78d9ad", skip-cert-verify: true }
+    - { name: Proxy-3, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-3qbGzBCb", password: "742aa2d968ef211f8f0d2b955641e418", skip-cert-verify: true }
+proxy-groups:
+  - name: 🎥 TikTok
+    type: select
+    proxies:
+      - Proxy-1
+      - Proxy-2
+      - Proxy-3
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🎥 TikTok
+rules:
+  - MATCH,🐟 漏网之鱼
