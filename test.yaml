@@ -5,50 +5,12 @@ allow-lan: true
 log-level: info
 external-controller: :9090
 proxies:
-    - { name: Proxy-1, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-O3z1WKXi", password: "0153f4d8ee7e37be155778748748b3ba", skip-cert-verify: true }
-    - { name: Proxy-2, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-WVrwHtVo", password: "067c538a7edec1bec0acf5c50913405d", skip-cert-verify: true }
-    - { name: Proxy-3, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-3Nd2xHId", password: "734b97443d1a6f59567cfba6adb9e6fa", skip-cert-verify: true }
-    - { name: Proxy-4, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-yieRIN8Y", password: "34ccabc45198457cab342fed6d7cac46", skip-cert-verify: true }
-    - { name: Proxy-5, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-NRflzdUv", password: "2518dbb366ec7b00ceccb54122d95038", skip-cert-verify: true }
-    - { name: Proxy-6, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-GJs4Zefc", password: "64737b8b400da97bbd798c664f8863fc", skip-cert-verify: true }
-    - { name: Proxy-7, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-S8S93oYR", password: "da8549daa47fae1edd00952d87606684", skip-cert-verify: true }
-    - { name: Proxy-8, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-8nDXx2T8", password: "6284f8fdd96a43e66ed523e74e9d013f", skip-cert-verify: true }
-    - { name: Proxy-9, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-rnmhugIe", password: "9cd0965eb8a8bd76f8621a32bac406b9", skip-cert-verify: true }
-    - { name: Proxy-10, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-82Y634zK", password: "eeb1856bd5e881c3b6090c8fbf7e673f", skip-cert-verify: true }
-    - { name: Proxy-11, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-Kbj8Ciot", password: "e164ab0fe920127c9336d92576df3017", skip-cert-verify: true }
-    - { name: Proxy-12, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-6qzIfQBN", password: "beeaf31385233d52ddaf6c945b3dceee", skip-cert-verify: true }
-    - { name: Proxy-13, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-L2apaTQz", password: "4608cbed2f94e07169c27c61cc7bd892", skip-cert-verify: true }
-    - { name: Proxy-14, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-A85LJmb8", password: "8812e4227eb738e5d17923c1a28816fa", skip-cert-verify: true }
-    - { name: Proxy-15, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-kva18TT8", password: "c030334105a2a3e5db247072a89d0c83", skip-cert-verify: true }
-    - { name: Proxy-16, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-1Q3hdeoQ", password: "b990e87aa7b32da1506b5812377bf1e3", skip-cert-verify: true }
-    - { name: Proxy-17, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-iDb8Cru2", password: "97a949dfff9216c9e112a00306d7f297", skip-cert-verify: true }
-    - { name: Proxy-18, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-7wm0afap", password: "097acd2b76b276c0d768966c7fdef8eb", skip-cert-verify: true }
-    - { name: Proxy-19, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-8LduVkff", password: "307f1b3c0e0fbc4af8246aa170b912b9", skip-cert-verify: true }
-    - { name: Proxy-20, server: gate1.ipweb.cc, port: 7778, type: socks5, username: "102000674921-AGGnAu5Z", password: "ed999b068685edf23f7b9fff0a3f76d2", skip-cert-verify: true }
+    - { name: Proxy-1, server: f592878f24827b22.gtz.as.ipidea.online, port: 2336, type: socks5, username: "qw111222-zone-custom-region-co-session-122gbf9bc1-sessTime-15", password: "qwe321", skip-cert-verify: true }
 proxy-groups:
   - name: 🎥 TikTok
     type: select
     proxies:
       - Proxy-1
-      - Proxy-2
-      - Proxy-3
-      - Proxy-4
-      - Proxy-5
-      - Proxy-6
-      - Proxy-7
-      - Proxy-8
-      - Proxy-9
-      - Proxy-10
-      - Proxy-11
-      - Proxy-12
-      - Proxy-13
-      - Proxy-14
-      - Proxy-15
-      - Proxy-16
-      - Proxy-17
-      - Proxy-18
-      - Proxy-19
-      - Proxy-20
   - name: 🐟 漏网之鱼
     type: select
     proxies:
