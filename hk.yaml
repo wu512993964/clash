@@ -9,6 +9,7 @@ proxies:
   - {name: Proxy-2, server: gate2.rola.info, port: 2052, type: socks5, username: "a7393*4g_1", password: "123456", skip-cert-verify: true}
   - {name: 洛杉矶, server: 65.75.192.65, port: 15934, type: vmess, uuid: 886765e9-cd0c-45f5-fc52-addaa198d3c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fsfsd}, tfo: false}
   - {name: luola, server: gate2.rola.info, port: 2052, type: socks5, username: "a7393*4g_1&country=us", password: "123456", skip-cert-verify: true}
+  - {name: cakeip, server: 103.35.188.122, port: 10000, type: socks5, username: "JxZ5JoZ--region-US-area-California-", password: "PBYJwbE", skip-cert-verify: true}
 
 proxy-groups:
   - name: 🎥 TikTok
@@ -22,6 +23,12 @@ proxy-groups:
       - 洛杉矶
       - Proxy-1
 
+  - name: cakeip—1
+    type: relay
+    proxies:
+      - 洛杉矶
+      - cakeip
+
   - name: luola-1
     type: relay
     proxies:
@@ -34,5 +41,6 @@ proxy-groups:
       - luola-1
       - luola 
       - 🎥 TikTok
+      - cakeip—1
 rules:
   - MATCH,🐟 漏网之鱼
