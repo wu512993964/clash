@@ -21,19 +21,18 @@ proxy-groups:
     proxies:
       - 洛杉矶
       - Proxy-1
-      
-  - name: luola
+
+  - name: luola-1
     type: relay
     proxies:
       - 洛杉矶
-      - luola
-      
+      - luola    
+
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - hk
-      - Proxy-2
-      - luola
+      - luola-1
+      - luola 
       - 🎥 TikTok
 rules:
   - MATCH,🐟 漏网之鱼
