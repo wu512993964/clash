@@ -41,5 +41,6 @@ proxy-groups:
       - luola 
       - 🎥 TikTok
       - cakeip—1
+      - Proxy-2
 rules:
   - MATCH,🐟 漏网之鱼
